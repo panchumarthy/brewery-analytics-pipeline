@@ -47,3 +47,10 @@ data/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Data files — store in S3, not git
+data/
+
+# Postman
+.postman/
+postman/
