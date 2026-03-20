@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment variables — NEVER commit secrets
+.env
+
+# dbt
+dbt/brewery_dbt/target/
+dbt/brewery_dbt/dbt_packages/
+dbt/brewery_dbt/logs/
+
+# Spark
+*.jar
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Airflow
+airflow/logs/
+airflow/plugins/
+airflow.cfg
+airflow.db
+
+# AWS credentials — never commit
+.aws/
+*.pem
+
+# Data files — store in S3, not git
+data/
+*.parquet
+*.csv
+*.json.gz
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
