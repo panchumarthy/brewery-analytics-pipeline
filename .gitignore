@@ -54,3 +54,4 @@ data/
 # Postman
 .postman/
 postman/
+venv_linux/
