@@ -57,3 +57,5 @@ postman/
 venv_linux/
 dbt/brewery_dbt/docs/
 dbt/brewery_dbt/profiles.yml
+airflow/logs/
+docker/logs/
