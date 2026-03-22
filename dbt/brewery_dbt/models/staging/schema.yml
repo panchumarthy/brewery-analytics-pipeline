@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_breweries
+    description: "Cleaned brewery records from Spark output"
+    columns:
+      - name: brewery_id
+        tests:
+          - unique
+          - not_null
+      - name: brewery_name
+        tests:
+          - not_null
+      - name: state
+        tests:
+          - not_null
+      - name: brewery_type
+        tests:
+          - not_null
+
+  - name: stg_weather_summary
+    description: "Weather averages aggregated by state"
+    columns:
+      - name: state
+        tests:
+          - not_null

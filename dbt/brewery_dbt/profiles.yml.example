@@ -1,0 +1,7 @@
+brewery_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/panch/brewery-pipeline/brewery.duckdb
+      threads: 4

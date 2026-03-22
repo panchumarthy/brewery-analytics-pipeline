@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: dim_breweries
+    description: "Brewery dimension table with category classification"
+    columns:
+      - name: brewery_id
+        tests:
+          - unique
+          - not_null
+      - name: brewery_category
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['craft', 'commercial', 'taproom', 'other']
+
+  - name: fact_brewery_weather
+    description: "Main analytics table — breweries enriched with weather"
+    columns:
+      - name: brewery_id
+        tests:
+          - not_null
+      - name: state
+        tests:
+          - not_null
