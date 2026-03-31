@@ -67,5 +67,17 @@ services:
       _AIRFLOW_WWW_USER_USERNAME: admin
       _AIRFLOW_WWW_USER_PASSWORD: admin
 
+  metabase:
+    image: metabase/metabase:latest
+    ports:
+      - 3000:3000
+    volumes:
+      - metabase-data:/metabase-data
+    environment:
+      MB_DB_FILE: /metabase-data/metabase.db
+    depends_on:
+      - postgres
+
 volumes:
   postgres-db-volume:
+  metabase-data:
