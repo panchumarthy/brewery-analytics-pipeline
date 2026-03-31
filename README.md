@@ -63,7 +63,7 @@ Built to demonstrate real-world data engineering skills: pipeline orchestration,
 ---
 ## Dashboard
 
-![Brewery Analytics Dashboard](docs/dashboard_screenshot.png)
+![Brewery Analytics Dashboard](docs/brewery_map.png)
 
 The dashboard shows brewery distribution across the US, powered by:
 - **Data**: 9,251 US breweries from Open Brewery DB API
