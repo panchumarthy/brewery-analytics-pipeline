@@ -61,6 +61,16 @@ Built to demonstrate real-world data engineering skills: pipeline orchestration,
 ```
 
 ---
+## Dashboard
+
+![Brewery Analytics Dashboard](docs/dashboard_screenshot.png)
+
+The dashboard shows brewery distribution across the US, powered by:
+- **Data**: 9,251 US breweries from Open Brewery DB API
+- **Enriched with**: Weather data from Open-Meteo API
+- **Processed by**: PySpark + dbt
+- **Stored in**: AWS S3 + Athena
+- **Visualised in**: Metabase
 
 ## Tech Stack
 
