@@ -294,7 +294,7 @@ Estimated monthly cost on free tier: **< $1**
 ## Author
 
 **Satish Panchumarthy**
-Data Engineer | [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+Data Engineer | [LinkedIn](https://www.linkedin.com/in/satish-panchumarthy-3366b610) | [GitHub](https://github.com/panchumarthy)
 
 ---
 
